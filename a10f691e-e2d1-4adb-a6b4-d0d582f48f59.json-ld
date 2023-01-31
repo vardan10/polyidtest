@@ -1,0 +1,23 @@
+{
+    "@context": [{
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "CountryCodeSchema": {
+            "@id": "https://s3.eu-west-1.amazonaws.com/polygonid-schemas/a10f691e-e2d1-4adb-a6b4-d0d582f48f59.json-ld#CountryCodeSchema",
+            "@context" : {
+                "@version": 1.1,
+                "@protected": true,
+                "id": "@id",
+                "type": "@type",
+                "poly-vocab": "https://s3.eu-west-1.amazonaws.com/polygonid-schemas/a10f691e-e2d1-4adb-a6b4-d0d582f48f59.vocab.schema.json",
+                "serialization": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/serialization.md#",
+                "CountryCode": {
+                    "@id": "poly-vocab:CountryCode",
+                    "@type": "serialization:IndexDataSlotA"
+                }
+            }
+        }
+    }]
+}
